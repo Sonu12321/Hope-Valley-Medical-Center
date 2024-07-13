@@ -11,7 +11,7 @@ const Home = () => {
         title={
           "Welcome toHope Valley Medical Center | Your Trusted Healthcare Provider"
         }
-        imageUrl={"/tell.png"}
+        imageUrl={"/doctor23.png"}
       />
       <Biography imageUrl={"/hospital.jpg"} />
       <Departments />

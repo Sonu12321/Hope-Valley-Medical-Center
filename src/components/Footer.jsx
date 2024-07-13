@@ -15,11 +15,11 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="container">
+      <footer className="container" style={{textAlign:'center'}}>
         <hr />
         <div className="content">
           <div>
-            <img src="/logo2.png" alt="logo" className="logo-img" />
+            <img src="/logoss.png" alt="logo" className="logo-img" />
           </div>
           <div>
             <h4>Quick Links</h4>
@@ -29,9 +29,9 @@ const Footer = () => {
               <Link to="/about">About</Link>
             </ul>
           </div>
-          <div>
+          <div >
             <h4>Hours</h4>
-            <ul>
+            <ul style={{alignItems:'center'}}>
               {hours.map((element) => (
                 <li key={element.id}>
                   <span>{element.day}</span>
@@ -42,20 +42,20 @@ const Footer = () => {
           </div>
           <div>
             <h4>Contact</h4>
-            <div>
-              <FaPhone />
-              <span>
-                1012-45454 <br />
+            <div >
+              
+              <span style={{color:'#fff',justifyContent:'center'}}>
+                1012-45454 <br/>
                 0560-45641
               </span>
             </div>
             <div>
-              <MdEmail />
-              <span>himinli@gmail.com</span>
+              
+              <span style={{color:'#fff'}}>himinli@gmail.com</span>
             </div>
             <div>
-              <FaLocationArrow />
-              <span>kochi, India</span>
+              
+              <span style={{color:'#fff'}}>Kochi, India</span>
             </div>
           </div>
         </div>
