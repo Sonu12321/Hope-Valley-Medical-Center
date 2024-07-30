@@ -397,6 +397,28 @@ footer .content div:last-child div {
 footer .content div:last-child div svg {
   font-size: 24px;
 }
+.footer-container {
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quick-links ul,
+.hours ul,
+.contact div,
+.location iframe {
+  margin-top: 20px;
+}
+
+.contact span {
+  color: #fff;
+  display: block;
+}
+
 @media (max-width: 1135px) {
   footer .content {
     flex-wrap: wrap;
@@ -475,15 +497,16 @@ footer .content div:last-child div svg {
 nav {
   display: flex;
   width: 100%;
+  height: 75px;
   background-color: #5fe0798a;
   margin: 0 auto;
   justify-content: space-between;
-  position: absolute;
+  position: relative  ;
   align-items: center;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
   padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-bottom: 20px !important;  
   z-index: 2;
 }
 nav .logo {
